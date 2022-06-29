@@ -1,0 +1,122 @@
+#nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 2000px;
+    margin: 0 auto;
+}
+
+a.menuitems{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+/*Page 1*/
+
+.p1{
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+    width: 400px;
+}
+
+.p1img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+/* Page 2 */
+
+.p2form{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px;
+}
+
+fieldset legend{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.name1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#firstname{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+.name2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lastname{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;;
+}
+
+label[for="student"]{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.p2submit{
+    width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*page 3 */
+
+/* Page 4 */
