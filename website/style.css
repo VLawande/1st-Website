@@ -1,4 +1,4 @@
-#nav{
+.nav{
     position: relative;
     display: flex;
     flex-direction: row;
@@ -6,7 +6,6 @@
     justify-content: space-evenly;
     align-items: center;
     height: 50px;
-    width: 2000px;
     margin: 0 auto;
 }
 
@@ -30,8 +29,8 @@ h1{
 /*Page 1*/
 
 .p1{
-    margin: 10px auto;
     position: relative;
+    margin: 10px auto;
     text-align: center;
     width: 400px;
 }
@@ -112,11 +111,63 @@ label[for="student"]{
 }
 
 .p2submit{
-    width: 1px;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
 /*page 3 */
 
+.p3h2{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.p3links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Page 4 */
+
+.p4images{
+    border: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(2, 500px);
+}
+
+.im1{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.im2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.im3{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.im4{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.im5{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.im6{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
